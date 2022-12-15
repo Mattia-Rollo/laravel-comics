@@ -1,6 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use League\Flysystem\Config;
 
 /*
 |--------------------------------------------------------------------------
@@ -14,5 +15,7 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return view('home');
+    $menu = config('dbComics.menuHeader');
+    // dd(compact('menu'));
+    return view('home', compact('menu'));
 })->name('home');

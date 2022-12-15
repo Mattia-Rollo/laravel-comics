@@ -1,14 +1,23 @@
-<header class="bg-white">
-    <div class="container d-flex justify-content-beetwen">
+<header id="header" class="">
+    <header class="container">
         <div>
-          <img src="{{ Vite::asset('resources/img/dc-logo.png') }}" class="img-fluid" alt="" />
+          <img src="{{ Vite::asset('resources/img/dc-logo.png') }}" alt="" />
         </div>
-        
-          {{-- <ul >
+       
+        <ul>
+            @foreach ($menu as $item)
             <li>
-              <a :href="">ok</a>
+              <a :href="">{{ $item }}</a>
             </li>
-          </ul> --}}
+            @endforeach
+        </ul>
+        
+          <span v-if="mobileView"><i class="fa-solid fa-bars"></i></span>
+        
+      </header>
+        
+          
+
         
           <span><i class="fa-solid fa-bars"></i></span>
         
