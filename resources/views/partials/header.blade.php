@@ -13,6 +13,7 @@
         </ul>
         
           <span v-if="mobileView"><i class="fa-solid fa-bars"></i></span>
+          
         
       </header>
         

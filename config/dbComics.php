@@ -225,5 +225,133 @@ return [
         "fans",
         "news",
         "shop",
-    ]
+    ],
+    // 'footerMenu' => [
+    //     [
+    //       {
+    //         title: "Comics",
+    //         links=> [
+    //           {
+    //             linkText=> "Dc Comics",
+    //             url=> "#",
+    //           },
+    //           {
+    //             linkText=> "Characters",
+    //             url=> "#",
+    //           },
+    //           {
+    //             linkText=> "Comics",
+    //             url=> "#",
+    //           },
+    //           {
+    //             linkText=> "Movies",
+    //             url=> "#",
+    //           },
+    //           {
+    //             linkText=> "TV",
+    //             url=> "#",
+    //           },
+    //           {
+    //             linkText=> "Games",
+    //             url=> "#",
+    //           },
+    //           {
+    //             linkText=> "Videos",
+    //             url=> "#",
+    //           },
+    //           {
+    //             linkText=> "News",
+    //             url=> "#",
+    //           },
+    //         ],
+    //       },
+    //       {
+    //         title=> "shop",
+    //         links=> [
+    //           {
+    //             linkText=> "Shop",
+    //             url=> "#",
+    //           },
+    //           {
+    //             linkText=> "Shop DC",
+    //             url=> "#",
+    //           },
+    //           {
+    //             linkText=> "Shop DC Collectables",
+    //             url=> "#",
+    //           },
+    //         ],
+    //       },
+    //     ],
+    //     "dc"=>          links=> [
+    //         {
+    //           linkText=> "Terms Of Use",
+    //           url=> "#",
+    //         },
+    //         {
+    //           linkText=> "Privacy Policy",
+    //           url=> "#",
+    //         },
+    //         {
+    //           linkText=> "Ad Choices",
+    //           url=> "#",
+    //         },
+    //         {
+    //           linkText=> "Advertising",
+    //           url=> "#",
+    //         },
+    //         {
+    //           linkText=> "Jobs",
+    //           url=> "#",
+    //         },
+    //         {
+    //           linkText=> "Subscriptions",
+    //           url=> "#",
+    //         },
+    //         {
+    //           linkText=> "Talent Workshops",
+    //           url=> "#",
+    //         },
+    //         {
+    //           linkText=> "CPSC Certificates",
+    //           url=> "#",
+    //         },
+    //         {
+    //           linkText=> "Ratings",
+    //           url=> "#",
+    //         },
+    //         {
+    //           linkText=> "Shop Help",
+    //           url=> "#",
+    //         },
+    //         {
+    //           linkText=> "Contact Us",
+    //           url=> "#",
+    //         },
+    //       ],
+    //     },
+    //     {
+    //       title=> "sites",
+    //       links=> [
+    //         {
+    //           linkText=> "DC",
+    //           url=> "#",
+    //         },
+    //         {
+    //           linkText=> "MAD Magazine",
+    //           url=> "#",
+    //         },
+    //         {
+    //           linkText=> "DC Kids",
+    //           url=> "#",
+    //         },
+    //         {
+    //           linkText=> "DC Universe",
+    //           url=> "#",
+    //         },
+    //         {
+    //           linkText=> "DC Power Visa",
+    //           url=> "#",
+    //         },
+    //     ],
 ];
