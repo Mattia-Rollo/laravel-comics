@@ -227,40 +227,52 @@ return [
         "shop",
     ],
     'menuFooter' => [
-        "Comics" => [
-            "Dc Comics",
-            "Characters",
-            "Comics",
-            "Movies",
-            "TV",
-            "Games",
-            "Videos",
-            "News",
+        [
+            'titolo' => "Comics",
+            'links' => [
+                "Dc Comics",
+                "Characters",
+                "Comics",
+                "Movies",
+                "TV",
+                "Games",
+                "Videos",
+                "News",
+            ]
         ],
-        "shop" => [
-            "Shop",
-            "Shop DC",
-            "Shop DC Collectables",
+        [
+            "titolo" => "shop",
+            "links" => [
+                "Shop",
+                "Shop DC",
+                "Shop DC Collectables",
+            ]
         ],
-        "dc" => [
-            "Terms Of Use",
-            "Privacy Policy",
-            "Ad Choices",
-            "Advertising",
-            "Jobs",
-            "Subscriptions",
-            "Talent Workshops",
-            "CPSC Certificates",
-            "Ratings",
-            "Shop Help",
-            "Contact Us",
+        [
+            "titolo" => "dc",
+            "links" => [
+                "Terms Of Use",
+                "Privacy Policy",
+                "Ad Choices",
+                "Advertising",
+                "Jobs",
+                "Subscriptions",
+                "Talent Workshops",
+                "CPSC Certificates",
+                "Ratings",
+                "Shop Help",
+                "Contact Us",
+            ]
         ],
-        "sites" => [
-            "DC",
-            "MAD Magazine",
-            "DC Kids",
-            "DC Universe",
-            "DC Power Visa",
+        [
+            "titolo" => "sites",
+            "links" => [
+                "DC",
+                "MAD Magazine",
+                "DC Kids",
+                "DC Universe",
+                "DC Power Visa",
+            ]
         ],
     ]
 ];
