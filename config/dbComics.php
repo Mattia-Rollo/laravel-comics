@@ -226,132 +226,41 @@ return [
         "news",
         "shop",
     ],
-    // 'footerMenu' => [
-    //     [
-    //       {
-    //         title: "Comics",
-    //         links=> [
-    //           {
-    //             linkText=> "Dc Comics",
-    //             url=> "#",
-    //           },
-    //           {
-    //             linkText=> "Characters",
-    //             url=> "#",
-    //           },
-    //           {
-    //             linkText=> "Comics",
-    //             url=> "#",
-    //           },
-    //           {
-    //             linkText=> "Movies",
-    //             url=> "#",
-    //           },
-    //           {
-    //             linkText=> "TV",
-    //             url=> "#",
-    //           },
-    //           {
-    //             linkText=> "Games",
-    //             url=> "#",
-    //           },
-    //           {
-    //             linkText=> "Videos",
-    //             url=> "#",
-    //           },
-    //           {
-    //             linkText=> "News",
-    //             url=> "#",
-    //           },
-    //         ],
-    //       },
-    //       {
-    //         title=> "shop",
-    //         links=> [
-    //           {
-    //             linkText=> "Shop",
-    //             url=> "#",
-    //           },
-    //           {
-    //             linkText=> "Shop DC",
-    //             url=> "#",
-    //           },
-    //           {
-    //             linkText=> "Shop DC Collectables",
-    //             url=> "#",
-    //           },
-    //         ],
-    //       },
-    //     ],
-    //     "dc"=>          links=> [
-    //         {
-    //           linkText=> "Terms Of Use",
-    //           url=> "#",
-    //         },
-    //         {
-    //           linkText=> "Privacy Policy",
-    //           url=> "#",
-    //         },
-    //         {
-    //           linkText=> "Ad Choices",
-    //           url=> "#",
-    //         },
-    //         {
-    //           linkText=> "Advertising",
-    //           url=> "#",
-    //         },
-    //         {
-    //           linkText=> "Jobs",
-    //           url=> "#",
-    //         },
-    //         {
-    //           linkText=> "Subscriptions",
-    //           url=> "#",
-    //         },
-    //         {
-    //           linkText=> "Talent Workshops",
-    //           url=> "#",
-    //         },
-    //         {
-    //           linkText=> "CPSC Certificates",
-    //           url=> "#",
-    //         },
-    //         {
-    //           linkText=> "Ratings",
-    //           url=> "#",
-    //         },
-    //         {
-    //           linkText=> "Shop Help",
-    //           url=> "#",
-    //         },
-    //         {
-    //           linkText=> "Contact Us",
-    //           url=> "#",
-    //         },
-    //       ],
-    //     },
-    //     {
-    //       title=> "sites",
-    //       links=> [
-    //         {
-    //           linkText=> "DC",
-    //           url=> "#",
-    //         },
-    //         {
-    //           linkText=> "MAD Magazine",
-    //           url=> "#",
-    //         },
-    //         {
-    //           linkText=> "DC Kids",
-    //           url=> "#",
-    //         },
-    //         {
-    //           linkText=> "DC Universe",
-    //           url=> "#",
-    //         },
-    //         {
-    //           linkText=> "DC Power Visa",
-    //           url=> "#",
-    //         },
-    //     ],
+    'menuFooter' => [
+        "Comics" => [
+            "Dc Comics",
+            "Characters",
+            "Comics",
+            "Movies",
+            "TV",
+            "Games",
+            "Videos",
+            "News",
+        ],
+        "shop" => [
+            "Shop",
+            "Shop DC",
+            "Shop DC Collectables",
+        ],
+        "dc" => [
+            "Terms Of Use",
+            "Privacy Policy",
+            "Ad Choices",
+            "Advertising",
+            "Jobs",
+            "Subscriptions",
+            "Talent Workshops",
+            "CPSC Certificates",
+            "Ratings",
+            "Shop Help",
+            "Contact Us",
+        ],
+        "sites" => [
+            "DC",
+            "MAD Magazine",
+            "DC Kids",
+            "DC Universe",
+            "DC Power Visa",
+        ],
+    ]
 ];

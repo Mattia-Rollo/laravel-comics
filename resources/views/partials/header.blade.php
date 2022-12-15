@@ -5,7 +5,7 @@
         </div>
        
         <ul>
-            @foreach ($menu as $item)
+            @foreach ($menuHeader as $item)
             <li>
               <a :href="">{{ $item }}</a>
             </li>

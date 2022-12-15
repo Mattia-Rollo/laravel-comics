@@ -15,7 +15,8 @@ use League\Flysystem\Config;
 */
 
 Route::get('/', function () {
-    $menu = config('dbComics.menuHeader');
-    // dd(compact('menu'));
-    return view('home', compact('menu'));
+    $menuHeader = config('dbComics.menuHeader');
+    $menuFooter = config('dbComics.menuFooter');
+    // dd(compact('menuFooter'));
+    return view('home', compact('menuHeader'), compact('menuFooter'));
 })->name('home');
